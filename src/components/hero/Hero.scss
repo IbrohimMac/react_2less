@@ -10,6 +10,7 @@
 }
 .sec-1 {
   .sec-1-all {
+    justify-content: space-between;
     display: flex;
     .sec1-mini1 {
       margin-top: 324px;
@@ -91,7 +92,6 @@
     }
     .sec1-mini2 {
       margin-top: 129px;
-      margin-left: 100px;
     }
   }
 }
