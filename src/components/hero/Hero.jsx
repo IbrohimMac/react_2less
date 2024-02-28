@@ -144,6 +144,61 @@ function Hero() {
           </div>
         </div>
       </section>
+      <section className="sec-5">
+        <div className="sec-5-all">
+          <div className="sec-5-mini1">
+            <h1 className="sec5-mini1-h">Contact Us</h1>
+            <p className="sec5-mini1-p">
+              In dignissim euismod pretium amet enim a eu nam ut urna accumsan
+              pellentesque lacus duis pharetra eutortor.
+            </p>
+            <div className="sec5-mini1-mini">
+              <img src="/images/sec1-tel.png" alt="" />
+              <div className="sec5-minin">
+                <p className="sec5-minin-p">Call us now</p>
+                <h2 className="sec5-minin-h">(414) 567 - 2109</h2>
+              </div>
+            </div>
+            <h2 className="sec5-mini1-h1">Not convinced yet?</h2>
+            <p className="sec5-mini1-p1">
+              Massa bibendum consectetur maurisid gravida purus, dolor dui amet
+              morbi non nunc urna purus diam.
+            </p>
+            <button className="sec5-mini1-but">Browse our packages</button>
+          </div>
+          <div className="sec-5-mini2">
+            <div className="sec5-input1">
+              <p>Full name</p>
+              <input type="Name" />
+            </div>
+            <div className="sec5-input1">
+              <p>Phone number</p>
+              <input type="Number" />
+            </div>
+            <div className="sec5-input1">
+              <p>Address</p>
+              <input type="Address" />
+            </div>
+            <div className="sec5-input1">
+              <p>Email</p>
+              <input type="Email" />
+            </div>
+            <div className="sec5-input1">
+              <p>Requested service</p>
+              <input type="Requested service" />
+            </div>
+            <div className="sec5-input1">
+              <p>Day of service</p>
+              <input type="Day" />
+            </div>
+            <div className="sec5-input2">
+              <p>Add a note</p>
+              <input type="Add a note" />
+            </div>
+            <button className="sec5-mini2-but">Submit message</button>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
