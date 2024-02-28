@@ -144,7 +144,7 @@ function Hero() {
           </div>
         </div>
       </section>
-      <section className="sec-5">
+      <section id="sec-5" className="sec-5">
         <div className="sec-5-all">
           <div className="sec-5-mini1">
             <h1 className="sec5-mini1-h">Contact Us</h1>
