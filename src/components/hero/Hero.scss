@@ -599,7 +599,9 @@
       gap: 32px;
       flex-wrap: wrap;
       .sec5-input1 {
-        p {
+        display: flex;
+        flex-direction: column;
+        label {
           width: 160px;
           height: 30px;
           top: 0.44px;
@@ -611,6 +613,7 @@
           letter-spacing: 0em;
           text-align: left;
           color: #211f54;
+          cursor: pointer;
         }
         input {
           width: 259px;
@@ -630,7 +633,7 @@
         }
       }
       .sec5-input2 {
-        p {
+        label {
           width: 160px;
           height: 30px;
           top: 0.44px;

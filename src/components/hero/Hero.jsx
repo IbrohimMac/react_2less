@@ -168,32 +168,32 @@ function Hero() {
           </div>
           <div className="sec-5-mini2">
             <div className="sec5-input1">
-              <p>Full name</p>
-              <input type="Name" />
+              <label htmlFor="Name">Full name</label>
+              <input type="Name" id="Name" />
             </div>
             <div className="sec5-input1">
-              <p>Phone number</p>
-              <input type="Number" />
+              <label htmlFor="Number">Phone number</label>
+              <input type="Number" id="Number" />
             </div>
             <div className="sec5-input1">
-              <p>Address</p>
-              <input type="Address" />
+              <label htmlFor="Address">Address</label>
+              <input type="Address" id="Address" />
             </div>
             <div className="sec5-input1">
-              <p>Email</p>
-              <input type="Email" />
+              <label htmlFor="Email">Email</label>
+              <input type="Email" id="Email" />
             </div>
             <div className="sec5-input1">
-              <p>Requested service</p>
-              <input type="Requested service" />
+              <label htmlFor="Requested service">Requested service</label>
+              <input type="Requested service" id="Requested service" />
             </div>
             <div className="sec5-input1">
-              <p>Day of service</p>
-              <input type="Day" />
+              <label htmlFor="Day of service">Day of service</label>
+              <input type="Day" id="Day of service" />
             </div>
             <div className="sec5-input2">
-              <p>Add a note</p>
-              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <label htmlFor="Add a note">Add a note</label>
+              <textarea name="" id="Add a note" cols="30" rows="10"></textarea>
             </div>
             <button className="sec5-mini2-but">Submit message</button>
           </div>
