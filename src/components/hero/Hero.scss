@@ -469,6 +469,8 @@
 }
 .sec-5 {
   margin-top: 131px;
+  background-color: #f7f9fc;
+  padding-bottom: 112px;
   .sec-5-all {
     display: flex;
     gap: 60px;
@@ -645,6 +647,7 @@
           letter-spacing: 0em;
           text-align: left;
           color: #211f54;
+          cursor: pointer;
         }
         textarea {
           width: 551px;
