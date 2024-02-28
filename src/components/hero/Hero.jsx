@@ -193,7 +193,7 @@ function Hero() {
             </div>
             <div className="sec5-input2">
               <p>Add a note</p>
-              <input type="Add a note" />
+              <textarea name="" id="" cols="30" rows="10"></textarea>
             </div>
             <button className="sec5-mini2-but">Submit message</button>
           </div>
